@@ -1,0 +1,976 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "main/src/images/001.jpg",
+      "title": "QR code component",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop"
+      ],
+      "discription": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+      "link": "https://mrseager.github.io/qr-code-component/",
+      "repasitory": "https://github.com/MrSeager/qr-code-component"
+    },
+    {
+      "id": 2,
+      "image": "main/src/images/002.jpg",
+      "title": "Age calculator app",
+      "discription": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/age-calculator-app-main/",
+      "repasitory": "https://github.com/MrSeager/age-calculator-app-main"
+    },
+    {
+      "id": 3,
+      "image": "main/src/images/003.jpg",
+      "title": "Product preview card component",
+      "discription": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/product-preview-card-component-main/",
+      "repasitory": "https://github.com/MrSeager/product-preview-card-component-main"
+    },
+    {
+      "id": 4,
+      "image": "main/src/images/004.jpg",
+      "title": "Testimonials grid section",
+      "discription": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/testimonials-grid-section-main/",
+      "repasitory": "https://github.com/MrSeager/testimonials-grid-section-main"
+    },
+    {
+      "id": 5,
+      "image": "main/src/images/005.jpg",
+      "title": "News homepage",
+      "discription": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/news-homepage-main/",
+      "repasitory": "https://github.com/MrSeager/news-homepage-main"
+    },
+    {
+      "id": 6,
+      "image": "main/src/images/006.jpg",
+      "title": "Intro section with dropdown navigation",
+      "discription": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop"
+      ],
+      "link": "https://mrseager.github.io/intro-section-with-dropdown-navigation/",
+      "repasitory": "https://github.com/MrSeager/intro-section-with-dropdown-navigation"
+    },
+    {
+      "id": 7,
+      "image": "main/src/images/007.jpg",
+      "title": "Clipboard landing page",
+      "discription": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/clipboard-landing-page-master/",
+      "repasitory": "https://github.com/MrSeager/clipboard-landing-page-master"
+    },
+    {
+      "id": 8,
+      "image": "main/src/images/008.jpg",
+      "title": "Sunnyside agency landing page",
+      "discription": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/sunnyside-agency-landing-page-main/",
+      "repasitory": "https://github.com/MrSeager/sunnyside-agency-landing-page-main"
+    },
+    {
+      "id": 9,
+      "image": "main/src/images/009.jpg",
+      "title": "Loopstudios landing page",
+      "discription": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/loopstudios-landing-page-main/",
+      "repasitory": "https://github.com/MrSeager/loopstudios-landing-page-main"
+    },
+    {
+      "id": 10,
+      "image": "main/src/images/010.jpg",
+      "title": "Blogr landing page",
+      "discription": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/blogr-landing-page-main/",
+      "repasitory": "https://github.com/MrSeager/blogr-landing-page-main"
+    },
+    {
+      "id": 11,
+      "image": "main/src/images/011.jpg",
+      "title": "Expenses chart component",
+      "discription": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/expenses-chart-component-main/",
+      "repasitory": "https://github.com/MrSeager/expenses-chart-component-main"
+    },
+    {
+      "id": 12,
+      "image": "main/src/images/012.jpg",
+      "title": "Time tracking dashboard",
+      "discription": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/time-tracking-dashboard-main/",
+      "repasitory": "https://github.com/MrSeager/time-tracking-dashboard-main"
+    },
+    {
+      "id": 13,
+      "image": "main/src/images/013.jpg",
+      "title": "Huddle landing page with curved sections",
+      "discription": "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/huddle-landing-page-with-curved-sections-master/",
+      "repasitory": "https://github.com/MrSeager/huddle-landing-page-with-curved-sections-master"
+    },
+    {
+      "id": 14,
+      "image": "main/src/images/014.jpg",
+      "title": "Insure landing page",
+      "discription": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/insure-landing-page-master/",
+      "repasitory": "https://github.com/MrSeager/insure-landing-page-master"
+    },
+    {
+      "id": 15,
+      "image": "main/src/images/015.jpg",
+      "title": "Easybank landing page",
+      "discription": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/easybank-landing-page-master/",
+      "repasitory": "https://github.com/MrSeager/easybank-landing-page-master"
+    },
+    {
+      "id": 16,
+      "image": "main/src/images/016.jpg",
+      "title": "Chat app CSS illustration",
+      "discription": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/chat-app-css-illustration-master/",
+      "repasitory": "https://github.com/MrSeager/chat-app-css-illustration-master"
+    },
+    {
+      "id": 17,
+      "image": "main/src/images/017.jpg",
+      "title": "Room homepage",
+      "discription": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/room-homepage/",
+      "repasitory": "https://github.com/MrSeager/room-homepage"
+    },
+    {
+      "id": 18,
+      "image": "main/src/images/018.jpg",
+      "title": "Space tourism multi-page website",
+      "discription": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/space-tourism/",
+      "repasitory": "https://github.com/MrSeager/space-tourism"
+    },
+    {
+      "id": 19,
+      "image": "main/src/images/019.jpg",
+      "title": "Interactive card details form",
+      "discription": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/interactive-card/",
+      "repasitory": "https://github.com/MrSeager/interactive-card"
+    },
+    {
+      "id": 20,
+      "image": "main/src/images/020.jpg",
+      "title": "Multi-step form",
+      "discription": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/multistep-form/",
+      "repasitory": "https://github.com/MrSeager/multistep-form"
+    },
+    {
+      "id": 21,
+      "image": "main/src/images/021.jpg",
+      "title": "Todo app",
+      "discription": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/todo-app/",
+      "repasitory": "https://github.com/MrSeager/todo-app"
+    },
+    {
+      "id": 22,
+      "image": "main/src/images/022.jpg",
+      "title": "Manage landing page",
+      "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/manage-landing/",
+      "repasitory": "https://github.com/MrSeager/manage-landing"
+    },
+    {
+      "id": 23,
+      "image": "main/src/images/023.jpg",
+      "title": "Bookmark landing page",
+      "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/bookmark-page/",
+      "repasitory": "https://github.com/MrSeager/bookmark-page"
+    },
+    {
+      "id": 24,
+      "image": "main/src/images/024.jpg",
+      "title": "E-commerce product page",
+      "discription": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/ecommerce-product/",
+      "repasitory": "https://github.com/MrSeager/ecommerce-product"
+    },
+    {
+      "id": 25,
+      "image": "main/src/images/025.jpg",
+      "title": "REST Countries API with color theme switcher",
+      "discription": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/countries-api/",
+      "repasitory": "https://github.com/MrSeager/countries-api"
+    },
+    {
+      "id": 26,
+      "image": "main/src/images/026.jpg",
+      "title": "URL shortening API landing page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/url-shortening/",
+      "repasitory": "https://github.com/MrSeager/url-shortening"
+    },
+    {
+      "id": 27,
+      "image": "main/src/images/027.jpg",
+      "title": "Project tracking intro component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/project-tracking/",
+      "repasitory": "https://github.com/MrSeager/project-tracking"
+    },
+    {
+      "id": 28,
+      "image": "main/src/images/028.jpg",
+      "title": "Rock, Paper, Scissors game",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/r-p-s-master/",
+      "repasitory": "https://github.com/MrSeager/r-p-s-master"
+    },
+    {
+      "id": 29,
+      "image": "main/src/images/029.jpg",
+      "title": "Blog preview card",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/blog-preview/",
+      "repasitory": "https://github.com/MrSeager/blog-preview"
+    },
+    {
+      "id": 30,
+      "image": "main/src/images/030.jpg",
+      "title": "Social links profile",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/links-profile/",
+      "repasitory": "https://github.com/MrSeager/links-profile"
+    },
+    {
+      "id": 31,
+      "image": "main/src/images/031.jpg",
+      "title": "Recipe page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/recipe-page/",
+      "repasitory": "https://github.com/MrSeager/recipe-page"
+    },
+    {
+      "id": 32,
+      "image": "main/src/images/032.jpg",
+      "title": "Four card feature section",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/four-cards/",
+      "repasitory": "https://github.com/MrSeager/four-cards"
+    },
+    {
+      "id": 33,
+      "image": "main/src/images/033.jpg",
+      "title": "Article preview component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/article-preview/",
+      "repasitory": "https://github.com/MrSeager/article-preview"
+    },
+    {
+      "id": 34,
+      "image": "main/src/images/034.jpg",
+      "title": "Article preview component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/calculator-app/",
+      "repasitory": "https://github.com/MrSeager/calculator-app"
+    },
+    {
+      "id": 35,
+      "image": "main/src/images/035.jpg",
+      "title": "Newsletter sign-up form with success message",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/newsletter-sign-up/",
+      "repasitory": "https://github.com/MrSeager/newsletter-sign-up"
+    },
+    {
+      "id": 36,
+      "image": "main/src/images/036.jpg",
+      "title": "Tip calculator app",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/tip-calculator/",
+      "repasitory": "https://github.com/MrSeager/tip-calculator"
+    },
+    {
+      "id": 37,
+      "image": "main/src/images/037.jpg",
+      "title": "Interactive rating component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/interactive-rating/",
+      "repasitory": "https://github.com/MrSeager/interactive-rating"
+    },
+    {
+      "id": 38,
+      "image": "main/src/images/038.jpg",
+      "title": "FAQ accordion",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/faq-accordion/",
+      "repasitory": "https://github.com/MrSeager/faq-accordion"
+    },
+    {
+      "id": 39,
+      "image": "main/src/images/039.jpg",
+      "title": "Contact form",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/contact-form/",
+      "repasitory": "https://github.com/MrSeager/contact-form"
+    },
+    {
+      "id": 40,
+      "image": "main/src/images/040.jpg",
+      "title": "NFT preview card component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/nft-preview-card/",
+      "repasitory": "https://github.com/MrSeager/nft-preview-card"
+    },
+    {
+      "id": 41,
+      "image": "main/src/images/041.jpg",
+      "title": "Huddle landing page with alternating feature blocks",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/huddle-landing-page/",
+      "repasitory": "https://github.com/MrSeager/huddle-landing-page"
+    },
+    {
+      "id": 42,
+      "image": "main/src/images/042.jpg",
+      "title": "Bento grid",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/bento-grid-main/",
+      "repasitory": "https://github.com/MrSeager/bento-grid-main"
+    },
+    {
+      "id": 43,
+      "image": "main/src/images/043.jpg",
+      "title": "Fylo dark theme landing page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/fylo-dark-page/",
+      "repasitory": "https://github.com/MrSeager/fylo-dark-page"
+    },
+    {
+      "id": 44,
+      "image": "main/src/images/044.jpg",
+      "title": "Social media dashboard with theme switcher",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/sm-dashboard/",
+      "repasitory": "https://github.com/MrSeager/sm-dashboard"
+    },
+    {
+      "id": 45,
+      "image": "main/src/images/045.jpg",
+      "title": "Fylo landing page with two column layout",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/fylo-page/",
+      "repasitory": "https://github.com/MrSeager/fylo-page"
+    },
+    {
+      "id": 46,
+      "image": "main/src/images/046.jpg",
+      "title": "Results summary component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/results-summary/",
+      "repasitory": "https://github.com/MrSeager/results-summary"
+    },
+    {
+      "id": 47,
+      "image": "main/src/images/047.jpg",
+      "title": "Coding bootcamp testimonials slider",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/bootcamp-testimonials/",
+      "repasitory": "https://github.com/MrSeager/bootcamp-testimonials"
+    },
+    {
+      "id": 48,
+      "image": "main/src/images/048.jpg",
+      "title": "Advice generator app",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/advice-generator/",
+      "repasitory": "https://github.com/MrSeager/advice-generator"
+    },
+    {
+      "id": 49,
+      "image": "main/src/images/049.jpg",
+      "title": "Pricing component with toggle",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/pricing-component/",
+      "repasitory": "https://github.com/MrSeager/pricing-component"
+    },
+    {
+      "id": 50,
+      "image": "main/src/images/050.jpg",
+      "title": "Fylo data storage component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/fylo-data-storage/",
+      "repasitory": "https://github.com/MrSeager/fylo-data-storage"
+    },
+    {
+      "id": 51,
+      "image": "main/src/images/051.jpg",
+      "title": "Crowdfunding product page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/crowdfunding-page/",
+      "repasitory": "https://github.com/MrSeager/crowdfunding-page"
+    },
+    {
+      "id": 52,
+      "image": "main/src/images/052.jpg",
+      "title": "Job listings with filtering",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/job-listings/",
+      "repasitory": "https://github.com/MrSeager/job-listings"
+    }
+  ]
+}
