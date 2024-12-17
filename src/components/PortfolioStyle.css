@@ -1,0 +1,12 @@
+.cs-transition {
+    transition: .5s !important;
+}
+
+/*Background*/
+
+
+/*Badges*/
+.cs-badge {
+    margin-top: 1px !important;
+    margin-left: -2px !important;
+}

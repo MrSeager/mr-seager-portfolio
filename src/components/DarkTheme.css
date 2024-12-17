@@ -1,0 +1,58 @@
+/*background*/
+.cs-bg-dark {
+    background-color: #0D0D0D !important;
+}
+
+.cs-bg-main-dark {
+    background-color: #F2F2F2 !important;
+}
+
+/*fonts*/
+.cs-fc-dark {
+    color: #F2F2F2 !important;
+}
+
+.cs-fc-dark-second {
+    color: #0D0D0D !important;
+}
+
+/*buttons*/
+.cs-nav-link-dark .nav-link, .cs-link-dark{
+    color: #F2F2F2 !important;
+}
+
+.cs-btn-filter-dark {
+    background-color: #BF0B0B !important;
+    color: #F2F2F2 !important;
+}
+
+.cs-btn-filter-dark .cs-badge {
+    background-color: #8C0404 !important;
+    color: #F2F2F2 !important;
+}
+
+.cs-btn-filter-dark:hover {
+    background-color: #8C0404 !important;
+}
+
+.cs-btn-filter-dark:hover .cs-badge {
+    background-color: #0D0D0D !important;
+    color: #F2F2F2 !important;
+}
+
+.cs-btn-dark {
+    color: #8C0404 !important;
+    border: solid 2px #8C0404 !important;
+}
+
+.cs-btn-dark:hover {
+    background-color: #8C0404 !important;
+    color: #F2F2F2 !important;
+}
+
+/*badges*/
+.cs-badge-dark {
+    background-color: #8C0404 !important;
+    color: #F2F2F2 !important;
+    opacity: 75% !important;
+}
