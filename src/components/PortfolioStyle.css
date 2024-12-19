@@ -10,3 +10,8 @@
     margin-top: 1px !important;
     margin-left: -2px !important;
 }
+
+/*Images*/
+.cs-img {
+    opacity: 75% !important;
+}
