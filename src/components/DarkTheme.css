@@ -26,12 +26,26 @@
 }
 
 .cs-link-dark:hover {
-    text-shadow: 0 0 2px #FF8C12, 0 0 4px #FF8C12, 0 0 6px #FF8C12, 0 0 8px #FF8C12, 0 0 10px #FF8C12, 0 0 12px #FF8C12, 0 0 14px #FF8C12;
+    text-shadow: 
+        0 0 2px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 8px #ff8d1289, 
+        0 0 10px #ff8d1289, 
+        0 0 12px #ff8d1289, 
+        0 0 14px #ff8d1289;
 }
 
 .cs-nav-link-dark .nav-link:hover {
     transition: .5s !important;
-    text-shadow: 0 0 2px #FF8C12, 0 0 4px #FF8C12, 0 0 6px #FF8C12, 0 0 8px #FF8C12, 0 0 10px #FF8C12, 0 0 12px #FF8C12, 0 0 14px #FF8C12;
+    text-shadow: 
+        0 0 2px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 8px #ff8d1289, 
+        0 0 10px #ff8d1289, 
+        0 0 12px #ff8d1289, 
+        0 0 14px #ff8d1289;
 }
 
 .cs-btn-filter-dark {
@@ -46,7 +60,14 @@
 
 .cs-btn-filter-dark:hover {
     background-color: #202529 !important;
-    box-shadow: 0 0 2px #FF8C12, 0 0 4px #FF8C12, 0 0 6px #FF8C12, 0 0 8px #FF8C12, 0 0 10px #FF8C12, 0 0 12px #FF8C12, 0 0 14px #FF8C12;
+    box-shadow: 
+        0 0 2px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 8px #ff8d1289, 
+        0 0 10px #ff8d1289, 
+        0 0 12px #ff8d1289, 
+        0 0 14px #ff8d1289;
 }
 
 .cs-btn-filter-dark:hover .cs-badge {
@@ -62,7 +83,14 @@
 .cs-btn-dark:hover {
     background-color: #FF8C12 !important;
     color: #F3F5F8 !important;
-    box-shadow: 0 0 2px #FF8C12, 0 0 4px #FF8C12, 0 0 6px #FF8C12, 0 0 8px #FF8C12, 0 0 10px #FF8C12, 0 0 12px #FF8C12, 0 0 14px #FF8C12;
+    box-shadow: 
+        0 0 2px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 8px #ff8d1289, 
+        0 0 10px #ff8d1289, 
+        0 0 12px #ff8d1289, 
+        0 0 14px #ff8d1289;
 }
 
 /*badges*/
@@ -75,7 +103,7 @@
 
 /*shadow*/
 .cs-shadow-dark {
-    box-shadow: #FF8C12 0px 5px 15px;
+    box-shadow: #ff8d1289 0px 5px 15px;
 }
 
 .cs-shadow-item-dark {
@@ -83,7 +111,14 @@
 }
 
 .cs-shadow-item-dark:hover {
-    box-shadow: 0 0 1px #FF8C12, 0 0 2px #FF8C12, 0 0 3px #FF8C12, 0 0 4px #FF8C12, 0 0 5px #FF8C12, 0 0 6px #FF8C12, 0 0 7px #FF8C12;
+    box-shadow: 
+        0 0 1px #ff8d1289, 
+        0 0 2px #ff8d1289, 
+        0 0 3px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 5px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 7px #ff8d1289;
 }
 
 .cs-shadow-item-dark:hover .cs-img, .cs-shadow-item-dark:hover .cs-badge-dark{

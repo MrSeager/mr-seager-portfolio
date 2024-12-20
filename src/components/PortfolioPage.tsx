@@ -2,6 +2,7 @@ import React, { FC, useState, useEffect, useRef } from 'react';
 //Components
 import './PortfolioStyle.css';
 import './DarkTheme.css';
+import './LightTheme.css';
 //Bootsrap
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Nav, Navbar, NavbarCollapse, NavDropdown, Image, Row, Col, Button, Badge } from 'react-bootstrap';
@@ -79,7 +80,6 @@ const PortfolioPage: FC = () => {
                         <NavDropdown title="Themes" drop='down' className={`cs-nav-link-${theme}`}>
                             <NavDropdown.Item onClick={() => setTheme('dark')}>Dark</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => setTheme('light')}>Light</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => setTheme('blue')}>Blue</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link className={`cs-link-${theme} cs-transition`}>Contact</Nav.Link>
                     </Nav>
@@ -120,7 +120,7 @@ const PortfolioPage: FC = () => {
                     </Container>
                 ))}
             </Container>
-            <Container fluid className={`cs-bg-${theme} mt-3 p-5 shadow d-flex flex-lg-row flex-column`}>
+            <Container fluid className={`cs-bg-${theme} cs-shadow-${theme} mt-3 p-5 d-flex flex-lg-row flex-column`}>
                 <Button className={`cs-transition m-2 cs-btn-${theme} cs-bg-main-${theme}`} href='https://www.linkedin.com/in/sergiy-b-623426159/' target='_blank'>
                     <FaLinkedin size="1.5em" /> Linkedin
                 </Button>

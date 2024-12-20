@@ -1,0 +1,127 @@
+/*background*/
+.cs-bg-light {
+    background-color: #B6D2D2 !important;
+}
+
+.cs-bg-main-light {
+    background-color: #E5FDFD !important;
+}
+
+.cs-bg-item-light {
+    background-color: #D8E2E3 !important;
+}
+
+/*fonts*/
+.cs-fc-light {
+    color: #A00033 !important;
+}
+
+.cs-fc-light-second {
+    color: #A00033 !important;
+}
+
+/*buttons*/
+.cs-nav-link-light .nav-link, .cs-link-light{
+    color: #A00033 !important;
+}
+
+.cs-link-light:hover {
+    text-shadow: 
+        0 0 2px #d50043a0, 
+        0 0 4px #d50043a0, 
+        0 0 6px #d50043a0, 
+        0 0 8px #d50043a0, 
+        0 0 10px #d50043a0, 
+        0 0 12px #d50043a0, 
+        0 0 14px #d50043a0;
+}
+
+.cs-nav-link-light .nav-link:hover {
+    transition: .5s !important;
+    text-shadow: 
+        0 0 2px #d50043a0, 
+        0 0 4px #d50043a0, 
+        0 0 6px #d50043a0, 
+        0 0 8px #d50043a0, 
+        0 0 10px #d50043a0, 
+        0 0 12px #d50043a0, 
+        0 0 14px #d50043a0;
+}
+
+.cs-btn-filter-light {
+    background-color: #D50044 !important;
+    color: #E5FDFD !important;
+}
+
+.cs-btn-filter-light .cs-badge {
+    background-color: #B6D2D2 !important;
+    color: #D50044 !important;
+}
+
+.cs-btn-filter-light:hover {
+    background-color: #B6D2D2 !important;
+    box-shadow: 
+        0 0 2px #d50043a0, 
+        0 0 4px #d50043a0, 
+        0 0 6px #d50043a0, 
+        0 0 8px #d50043a0, 
+        0 0 10px #d50043a0, 
+        0 0 12px #d50043a0, 
+        0 0 14px #d50043a0;
+    color: #D50044 !important;
+}
+
+.cs-btn-filter-light:hover .cs-badge {
+    background-color: #B6D2D2 !important;
+    color: #D50044 !important;
+}
+
+.cs-btn-light {
+    color: #A00033 !important;
+    border: solid 2px #A00033 !important;
+}
+
+.cs-btn-light:hover {
+    background-color: #A00033 !important;
+    color: #E5FDFD !important;
+    box-shadow: 
+        0 0 2px #d50043a0, 
+        0 0 4px #d50043a0, 
+        0 0 6px #d50043a0, 
+        0 0 8px #d50043a0, 
+        0 0 10px #d50043a0, 
+        0 0 12px #d50043a0, 
+        0 0 14px #d50043a0;
+}
+
+/*badges*/
+.cs-badge-light {
+    background-color: #A00033 !important;
+    color: #E5FDFD !important;
+    opacity: 50% !important;
+    z-index: 1 !important;
+}
+
+/*shadow*/
+.cs-shadow-light {
+    box-shadow: #d50043a0 0px 5px 15px;
+}
+
+.cs-shadow-item-light {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cs-shadow-item-light:hover {
+    box-shadow: 
+        0 0 1px #d50043a0, 
+        0 0 2px #d50043a0, 
+        0 0 3px #d50043a0, 
+        0 0 4px #d50043a0, 
+        0 0 5px #d50043a0, 
+        0 0 6px #d50043a0, 
+        0 0 7px #d50043a0;
+}
+
+.cs-shadow-item-light:hover .cs-img, .cs-shadow-item-light:hover .cs-badge-light{
+    opacity: 100% !important;
+}
