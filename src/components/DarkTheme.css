@@ -53,6 +53,15 @@
     color: #F3F5F8 !important;
 }
 
+.cs-btn-filter-dark:disabled {
+    background-color: #4C555C !important;
+    color: #202529 !important;
+}
+
+.cs-btn-filter-dark:disabled .cs-badge {
+    color: #202529 !important;
+}
+
 .cs-btn-filter-dark .cs-badge {
     background-color: #4C555C !important;
     color: #F3F5F8 !important;
