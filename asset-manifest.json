@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mr-seager-portfolio/static/css/main.20cc4bfa.css",
+    "main.js": "/mr-seager-portfolio/static/js/main.fa4981c5.js",
+    "static/js/488.7a87abb9.chunk.js": "/mr-seager-portfolio/static/js/488.7a87abb9.chunk.js",
+    "index.html": "/mr-seager-portfolio/index.html",
+    "main.20cc4bfa.css.map": "/mr-seager-portfolio/static/css/main.20cc4bfa.css.map",
+    "main.fa4981c5.js.map": "/mr-seager-portfolio/static/js/main.fa4981c5.js.map",
+    "488.7a87abb9.chunk.js.map": "/mr-seager-portfolio/static/js/488.7a87abb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20cc4bfa.css",
+    "static/js/main.fa4981c5.js"
+  ]
+}
