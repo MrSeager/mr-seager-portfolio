@@ -21,6 +21,25 @@
 }
 
 /*buttons*/
+.cs-toggle-dark {
+    background-color: transparent !important;
+    color: #FF8C12 !important;
+    border: solid 2px #FF8C12 !important;
+}
+
+.cs-toggle-dark:hover {
+    background-color: #FF8C12 !important;
+    color: #F3F5F8 !important;
+    box-shadow: 
+        0 0 2px #ff8d1289, 
+        0 0 4px #ff8d1289, 
+        0 0 6px #ff8d1289, 
+        0 0 8px #ff8d1289, 
+        0 0 10px #ff8d1289, 
+        0 0 12px #ff8d1289, 
+        0 0 14px #ff8d1289;
+}
+
 .cs-nav-link-dark .nav-link, .cs-link-dark{
     color: #F3F5F8 !important;
 }
