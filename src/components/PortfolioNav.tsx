@@ -24,7 +24,7 @@ const PortfolioNav: FC<PortfolioNavProps> = ({ theme, filters, setFilters, setTh
             <Navbar.Toggle className={`cs-transition cs-toggle-${theme}`}>
                 <IoMenu className='my-1' />
             </Navbar.Toggle>
-            <Nav className='w-100 d-flex flex-row flex-wrap align-items-center justify-content-center gap-3'>
+            <Nav className='w-100 py-lg-0 py-3 d-flex flex-row flex-wrap align-items-center justify-content-center gap-3'>
                 {filters.map((filter) => (
                     <Button key={filter} onClick={() => handleRemoveFilter(filter)} className={`cs-transition border-0 d-flex flex-row justify-content-center align-items-center py-0 cs-btn-filter-${theme}`}>
                         <FaHashtag className='me-1' />
