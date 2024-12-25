@@ -2,6 +2,9 @@
     transition: .5s !important;
 }
 
+.cs-w {
+    width: 50% !important;
+}
 /*Background*/
 
 
@@ -14,4 +17,11 @@
 /*Images*/
 .cs-img {
     opacity: 75% !important;
+    object-fit: cover !important;
+}
+
+@media (max-width: 991px) {
+    .cs-w {
+        width: 100% !important;
+    }
 }

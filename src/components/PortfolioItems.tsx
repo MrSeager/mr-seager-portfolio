@@ -3,6 +3,10 @@ import React, { FC } from 'react';
 import PortfolioItem from './PortfolioItem.tsx';
 //Bootstrap
 import { Container, Row } from 'react-bootstrap';
+//Spring
+import { useSpring, animated } from '@react-spring/web';
+//Intersection Observer
+import { useInView } from 'react-intersection-observer';
 
 interface PortfolioItemProps {
     id: number;
@@ -33,17 +37,19 @@ const PortfolioItems: FC<PortfolioItemsProps> = ({ theme, filters, portfolio, se
         return filters.every(filter => portfolioFilters.includes(filter));
     });
 
+
+
     return (
         <Container as={Row} fluid className='mt-5 pt-lg-0 pt-5 px-5'>
             {filteredList.length > 0 ? ( 
                 filteredList.map((portfolioItem, index) => (
-                    <PortfolioItem 
-                        theme={theme}
-                        index={index}
-                        portfolioItem={portfolioItem}
-                        filters={filters}
-                        handleAddFilter={handleAddFilter}
-                    />
+                        <PortfolioItem 
+                            theme={theme}
+                            index={index}
+                            portfolioItem={portfolioItem}
+                            filters={filters}
+                            handleAddFilter={handleAddFilter}
+                        />
                 ))) : <p className='text-center'>Loading...</p>
             }
         </Container>

@@ -7,6 +7,8 @@ import { FaGithub, FaHashtag } from "react-icons/fa";
 import { PiDesktopTower, PiDeviceMobile } from "react-icons/pi";
 //Spring
 import { useSpring, animated } from '@react-spring/web';
+//Intersection Observer
+import { useInView } from 'react-intersection-observer';
 
 interface PortfolioItemProps {
     theme: string;
@@ -27,39 +29,44 @@ const PortfolioItem: FC<PortfolioItemProps> = ({ theme, index, portfolioItem, fi
                 return null;
         }
     };
+    
+    const { ref, inView } = useInView({ 
+        triggerOnce: false, 
+        threshold: 0.1, 
+    });
 
     const slideRightAnim = useSpring ({
-        from: { opacity: 0, x: -200 },
-        to: { opacity: 1, x: 0 },
-        config: {tension: 120, friction: 15 },
+        from: { opacity: 0, x: -200, y: -50 },
+        to: { opacity: inView ? 1 : 0, x: inView ? 0 : -200, y: inView ? 0 : -50 },
+        config: {tension: 120, friction: 35 },
     });
 
     const slideLeftAnim = useSpring ({
-        from: { opacity: 0, x: 200 },
-        to: { opacity: 1, x: 0 },
-        config: {tension: 120, friction: 15 },
+        from: { opacity: 0, x: 200, y: -50 },
+        to: { opacity: inView ? 1 : 0, x: inView ? 0 : 200, y: inView ? 0 : -50 },
+        config: {tension: 120, friction: 35 },
     });
-    
+
     return (
         <Container as={Col} lg={6} xs={12} key={index} className='px-lg-4 px-0 py-2'>                
-            <animated.div style={index % 2 === 0 ? slideRightAnim : slideLeftAnim}>
-                <Row className={`cs-bg-item-${theme} cs-shadow-item-${theme} cs-transition m-0 rounded rounded-3 overflow-hidden pe-2`}>
-                    <Col xs={4} className='px-0 position-relative'>
-                        <Container className='position-absolute d-flex flex-row justify-content-start gap-2 h-25 w-50 mt-2'>
+            <animated.div key={index} ref={ref} style={index % 2 === 0 ? slideRightAnim : slideLeftAnim} className='p-0'>
+                <Row className={`cs-bg-item-${theme} cs-shadow-item-${theme} cs-transition m-0 rounded rounded-3 overflow-hidden pe-lg-2 pe-0 h-100`}>
+                    <Col lg={4} xs={12} className='px-0 position-relative overflow-hidden d-flex flex-column'>
+                        <Container className='position-absolute d-flex flex-row justify-content-start gap-2 h-25 w-100 mt-2'>
                             {portfolioItem.version.map((ver, index) => (
                                 <Badge key={index} bg="custom" className={`cs-badge-${theme} px-1 py-1 cs-transition`}>
                                     {handleBadgeVerIcon(ver)}
                                 </Badge>
                             ))}
                         </Container>
-                        <Image fluid src={`https://raw.githubusercontent.com/MrSeager/mr-seager-portfolio/refs/heads/${portfolioItem.image}`} alt='image' className='cs-img cs-transition' />
+                        <Image src={`https://raw.githubusercontent.com/MrSeager/mr-seager-portfolio/refs/heads/${portfolioItem.image}`} alt='image' className='cs-img cs-transition h-100' />
                     </Col>
-                    <Col xs={7} className='d-flex flex-column justify-content-between py-2'>
+                    <Col lg={7} xs={12} className='d-flex flex-column justify-content-between py-2 gap-2'>
                         <h1 className={`cs-fc-${theme}-second h5 m-0`}>{portfolioItem.id}. {portfolioItem.title}</h1>
-                        <Container className='p-0 d-flex flex-row flex-wrap gap-2'>
+                        <Container className='p-0 d-flex flex-row flex-wrap justify-content-lg-start justify-content-center gap-2'>
                             {portfolioItem.technology != null ? (
                                 portfolioItem.technology.map((tech, index) => (
-                                    <Button disabled={filters.includes(tech)} onClick={() => handleAddFilter(tech)} className={`cs-transition border-0 d-flex flex-row justify-content-center py-0 ps-0 cs-btn-filter-${theme}`}>
+                                    <Button key={index} disabled={filters.includes(tech)} onClick={() => handleAddFilter(tech)} className={`cs-transition border-0 d-flex flex-row justify-content-center py-0 ps-0 cs-btn-filter-${theme}`}>
                                         <Badge className='cs-transition cs-badge me-2 p-2 h-100'><FaHashtag className='h-100' /></Badge>
                                         <p className='fw-bold m-0 py-1'>{tech}</p>
                                     </Button>
@@ -67,11 +74,11 @@ const PortfolioItem: FC<PortfolioItemProps> = ({ theme, index, portfolioItem, fi
                             ) : ''}
                         </Container>
                     </Col>
-                    <Col xs={1} className='d-flex flex-column align-items-center justify-content-between py-2'>
+                    <Col lg={1} className='d-flex flex-lg-column flex-row align-items-center justify-content-between py-2'>
                         <Button href={portfolioItem.link} target='_blank' className={`cs-btn-${theme} bg-transparent py-2 cs-transition`}><TbExternalLink /></Button>
                         <Button href={portfolioItem.repasitory} target='_blank' className={`cs-btn-${theme} bg-transparent py-2 cs-transition`}><FaGithub /></Button>
                     </Col>
-                </Row>  
+                </Row>
             </animated.div>
         </Container>
     );
