@@ -1,137 +1,117 @@
 /*background*/
 .cs-bg-dark {
-    background-color: #202529 !important;
+    background-color: #1f212e !important;
 }
 
 .cs-bg-main-dark {
-    background-color: #4C555C !important;
+    background-color: #1e202a !important;
 }
 
 .cs-bg-item-dark {
-    background-color: #32383D !important;
+    background-color: #252a41 !important;
 }
 
 /*fonts*/
 .cs-fc-dark {
-    color: #F3F5F8 !important;
+    color: #ffffff !important;
 }
 
 .cs-fc-dark-second {
-    color: #F3F5F8 !important;
+    color: #8b97c6 !important;
 }
 
 /*buttons*/
-.cs-toggle-dark {
-    background-color: transparent !important;
-    color: #FF8C12 !important;
-    border: solid 2px #FF8C12 !important;
-}
-
-.cs-toggle-dark:hover {
-    background-color: #FF8C12 !important;
-    color: #F3F5F8 !important;
-    box-shadow: 
-        0 0 2px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 8px #ff8d1289, 
-        0 0 10px #ff8d1289, 
-        0 0 12px #ff8d1289, 
-        0 0 14px #ff8d1289;
-}
-
 .cs-nav-link-dark .nav-link, .cs-link-dark{
-    color: #F3F5F8 !important;
+    color: #ffffff !important;
 }
 
 .cs-link-dark:hover {
     text-shadow: 
-        0 0 2px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 8px #ff8d1289, 
-        0 0 10px #ff8d1289, 
-        0 0 12px #ff8d1289, 
-        0 0 14px #ff8d1289;
+        0 0 2px #1ca0f2, 
+        0 0 4px #1ca0f2, 
+        0 0 6px #1ca0f2, 
+        0 0 8px #1ca0f2, 
+        0 0 10px #1ca0f2, 
+        0 0 12px #1ca0f2, 
+        0 0 14px #1ca0f2;
 }
 
 .cs-nav-link-dark .nav-link:hover {
     transition: .5s !important;
     text-shadow: 
-        0 0 2px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 8px #ff8d1289, 
-        0 0 10px #ff8d1289, 
-        0 0 12px #ff8d1289, 
-        0 0 14px #ff8d1289;
+        0 0 2px #1ca0f2, 
+        0 0 4px #1ca0f2, 
+        0 0 6px #1ca0f2, 
+        0 0 8px #1ca0f2, 
+        0 0 10px #1ca0f2, 
+        0 0 12px #1ca0f2, 
+        0 0 14px #1ca0f2;
 }
 
 .cs-btn-filter-dark {
-    background-color: #FF8C12 !important;
-    color: #F3F5F8 !important;
+    background-color: #1db489 !important;
+    color: #ffffff !important;
 }
 
 .cs-btn-filter-dark:disabled {
-    background-color: #4C555C !important;
-    color: #202529 !important;
+    background-color: #1f212e !important;
+    color: #8b97c6 !important;
 }
 
 .cs-btn-filter-dark:disabled .cs-badge {
-    color: #202529 !important;
+    color: #1f212e !important;
 }
 
 .cs-btn-filter-dark .cs-badge {
-    background-color: #4C555C !important;
-    color: #F3F5F8 !important;
+    background-color: #8b97c6 !important;
+    color: #ffffff !important;
 }
 
 .cs-btn-filter-dark:hover {
-    background-color: #202529 !important;
+    background-color: #8b97c6 !important;
     box-shadow: 
-        0 0 2px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 8px #ff8d1289, 
-        0 0 10px #ff8d1289, 
-        0 0 12px #ff8d1289, 
-        0 0 14px #ff8d1289;
+        0 0 2px #1ca0f2, 
+        0 0 4px #1ca0f2, 
+        0 0 6px #1ca0f2, 
+        0 0 8px #1ca0f2, 
+        0 0 10px #1ca0f2, 
+        0 0 12px #1ca0f2, 
+        0 0 14px #1ca0f2;
 }
 
 .cs-btn-filter-dark:hover .cs-badge {
-    background-color: #202529 !important;
-    color: #F3F5F8 !important;
+    background-color: #1f212e !important;
 }
 
 .cs-btn-dark {
-    color: #FF8C12 !important;
-    border: solid 2px #FF8C12 !important;
+    color: #1db489 !important;
+    border: solid 2px #1db489 !important;
 }
 
 .cs-btn-dark:hover {
-    background-color: #FF8C12 !important;
-    color: #F3F5F8 !important;
+    background-color: #1db489 !important;
+    color: #ffffff !important;
     box-shadow: 
-        0 0 2px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 8px #ff8d1289, 
-        0 0 10px #ff8d1289, 
-        0 0 12px #ff8d1289, 
-        0 0 14px #ff8d1289;
+        0 0 2px #1ca0f2, 
+        0 0 4px #1ca0f2, 
+        0 0 6px #1ca0f2, 
+        0 0 8px #1ca0f2, 
+        0 0 10px #1ca0f2, 
+        0 0 12px #1ca0f2, 
+        0 0 14px #1ca0f2;
 }
 
 /*badges*/
 .cs-badge-dark {
-    background-color: #FF8C12 !important;
-    color: #F3F5F8 !important;
+    background-color: #1db489 !important;
+    color: #ffffff !important;
     opacity: 50% !important;
     z-index: 1 !important;
 }
 
 /*shadow*/
 .cs-shadow-dark {
-    box-shadow: #ff8d1289 0px 5px 15px;
+    box-shadow: #1ca0f2 0px 5px 15px;
 }
 
 .cs-shadow-item-dark {
@@ -140,13 +120,13 @@
 
 .cs-shadow-item-dark:hover {
     box-shadow: 
-        0 0 1px #ff8d1289, 
-        0 0 2px #ff8d1289, 
-        0 0 3px #ff8d1289, 
-        0 0 4px #ff8d1289, 
-        0 0 5px #ff8d1289, 
-        0 0 6px #ff8d1289, 
-        0 0 7px #ff8d1289;
+        0 0 1px #1ca0f2, 
+        0 0 2px #1ca0f2, 
+        0 0 3px #1ca0f2, 
+        0 0 4px #1ca0f2, 
+        0 0 5px #1ca0f2, 
+        0 0 6px #1ca0f2, 
+        0 0 7px #1ca0f2;
 }
 
 .cs-shadow-item-dark:hover .cs-img, .cs-shadow-item-dark:hover .cs-badge-dark{
