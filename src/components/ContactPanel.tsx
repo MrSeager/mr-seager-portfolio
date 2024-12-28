@@ -13,10 +13,10 @@ interface ContactPanelProps {
 const ContactPanel: FC<ContactPanelProps> = ({ showModal, handleClose, theme }) => {
     return (
         <Modal show={showModal} onHide={handleClose}>
-            <Modal.Header closeButton>
-                <Modal.Title>Contact links</Modal.Title>
+            <Modal.Header closeButton className={`border-0 rounded-top-1 cs-bg-${theme}`}>
+                <Modal.Title className={`cs-fc-${theme}`}>Contact links</Modal.Title>
             </Modal.Header>
-            <Modal.Body className='d-flex flex-row'>
+            <Modal.Body className={`d-flex flex-row cs-bg-main-${theme}`}>
                 <Button className={`cs-transition m-2 cs-btn-${theme} cs-bg-main-${theme}`} href='https://www.linkedin.com/in/sergiy-b-623426159/' target='_blank'>
                     <FaLinkedin size="1.5em" /> Linkedin
                 </Button>
@@ -30,7 +30,7 @@ const ContactPanel: FC<ContactPanelProps> = ({ showModal, handleClose, theme }) 
                     <FaYoutube size="1.5em" /> YouTube
                 </Button>
             </Modal.Body>
-            <Modal.Footer>
+            <Modal.Footer className={`border-0 rounded-bottom-1 cs-shadow-${theme} cs-bg-${theme}`}>
                 
             </Modal.Footer>
         </Modal>
