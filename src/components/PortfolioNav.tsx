@@ -9,18 +9,18 @@ interface PortfolioNavProps {
     theme: string;
     filters: string[];
     setFilters: (filters: string[]) => void; 
-    setTheme: (theme: string) => void; 
+    setTheme: (theme: string) => void;
+    handleShow: () => void;
 }
 
-const PortfolioNav: FC<PortfolioNavProps> = ({ theme, filters, setFilters, setTheme }) => {
+const PortfolioNav: FC<PortfolioNavProps> = ({ theme, filters, setFilters, setTheme, handleShow }) => {
     const handleRemoveFilter = (filter: string) => {
         setFilters(filters.filter(f => f !== filter));
     };
 
     return (
-        <Navbar expand='lg' fixed='top' className={`cs-bg-${theme} px-5 py-3 cs-shadow-${theme}`}>
+        <Navbar expand='lg' fixed='top' className={`cs-bg-${theme} cs-transition px-5 py-3 cs-shadow-${theme}`}>
             <Navbar.Brand href='#home' className={`fw-bold cs-fc-${theme}`}>Mr. Seager's Portfolio</Navbar.Brand>
-            
             <Navbar.Toggle className={`cs-transition cs-toggle-${theme}`}>
                 <IoMenu className='my-1' />
             </Navbar.Toggle>
@@ -38,7 +38,7 @@ const PortfolioNav: FC<PortfolioNavProps> = ({ theme, filters, setFilters, setTh
                         <NavDropdown.Item onClick={() => setTheme('dark')}>Dark</NavDropdown.Item>
                         <NavDropdown.Item onClick={() => setTheme('light')}>Light</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link className={`cs-link-${theme} cs-transition`}>Contact</Nav.Link>
+                    <Nav.Link onClick={handleShow} className={`cs-link-${theme} cs-transition`}>Contact</Nav.Link>
                 </Nav>
             </NavbarCollapse>
         </Navbar>

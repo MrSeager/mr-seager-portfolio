@@ -40,7 +40,7 @@ const PortfolioItems: FC<PortfolioItemsProps> = ({ theme, filters, portfolio, se
 
 
     return (
-        <Container as={Row} fluid className='mt-5 pt-lg-0 pt-5 px-5'>
+        <Container as={Row} fluid className='mt-5 pt-lg-0 pt-5 px-5 gap-md-0 gap-3'>
             {filteredList.length > 0 ? ( 
                 filteredList.map((portfolioItem, index) => (
                         <PortfolioItem 

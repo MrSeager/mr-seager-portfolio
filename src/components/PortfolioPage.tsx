@@ -6,6 +6,7 @@ import './LightTheme.css';
 import PortfolioNav from './PortfolioNav.tsx';
 import PortfolioItems from './PortfolioItems.tsx';
 import PortfolioFooter from './PortfolioFooter.tsx';
+import ContactPanel from './ContactPanel.tsx';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from 'react-bootstrap';
@@ -13,7 +14,6 @@ import { Container } from 'react-bootstrap';
 import axios from 'axios';
 //Spring
 import { useSpring, animated, useTrail } from '@react-spring/web';
-
 interface PortfolioItemType {
     id: number;
     title: string;
@@ -28,6 +28,10 @@ const PortfolioPage: FC = () => {
     const [theme, setTheme] = useState<string>('dark');
     const [filters, setFilters] = useState<string[]>([]);
     const [portfolio, setPortfolio] = useState<PortfolioItemType[]>([]);
+    const [showModal, setShowModal] = useState(false);
+
+    const handleClose = () => setShowModal(false);
+    const handleShow = () => setShowModal(true);
 
     useEffect(() => {
         axios.get('https://raw.githubusercontent.com/MrSeager/mr-seager-portfolio/refs/heads/main/src/data.json').then((response) => {
@@ -42,6 +46,7 @@ const PortfolioPage: FC = () => {
                 filters={filters}
                 setFilters={setFilters}
                 setTheme={setTheme}
+                handleShow={handleShow}
             />
             
             <PortfolioItems 
@@ -52,6 +57,12 @@ const PortfolioPage: FC = () => {
             />
 
             <PortfolioFooter 
+                theme={theme}
+            />
+
+            <ContactPanel 
+                showModal={showModal}
+                handleClose={handleClose}
                 theme={theme}
             />
         </Container>

@@ -49,7 +49,7 @@ const PortfolioItem: FC<PortfolioItemProps> = ({ theme, index, portfolioItem, fi
                 style={slideAnimation}
                 onMouseEnter={() => setHovered(true)} 
                 onMouseLeave={() => setHovered(false)}
-                className='p-0'>
+                className='p-0 h-100'>
                 <Row className={`cs-bg-item-${theme} cs-shadow-item-${theme} cs-transition m-0 rounded rounded-3 overflow-hidden pe-lg-2 pe-0 h-100`}>
                     <Col md={4} xs={12} className='px-0 position-relative overflow-hidden d-flex flex-column'>
                         <Container className='position-absolute d-flex flex-row justify-content-start gap-2 h-25 w-100 mt-2'>

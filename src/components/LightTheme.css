@@ -1,138 +1,142 @@
 /*background*/
 .cs-bg-light {
-    background-color: #B6D2D2 !important;
+    background-color: #f5f7ff !important;
 }
 
 .cs-bg-main-light {
-    background-color: #E5FDFD !important;
+    background-color: #ffffff !important;
 }
 
 .cs-bg-item-light {
-    background-color: #D8E2E3 !important;
+    background-color: #f0f2fa !important;
 }
 
 /*fonts*/
 .cs-fc-light {
-    color: #A00033 !important;
+    color: #63687e !important;
 }
 
 .cs-fc-light-second {
-    color: #A00033 !important;
+    color: #1e202a !important;
 }
 
 /*buttons*/
 .cs-toggle-light {
     background-color: transparent !important;
-    color: #A00033 !important;
-    border: solid 2px #A00033 !important;
+    color: #dc414c !important;
+    border: solid 2px #dc414c !important;
 }
 
 .cs-toggle-light:hover {
-    background-color: #A00033 !important;
-    color: #D8E2E3 !important;
+    background-color: #dc414c !important;
+    color: #f0f2fa !important;
     box-shadow: 
-        0 0 2px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 8px #d50043a0, 
-        0 0 10px #d50043a0, 
-        0 0 12px #d50043a0, 
-        0 0 14px #d50043a0;
+        0 0 2px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 8px #fdc468, 
+        0 0 10px #fdc468, 
+        0 0 12px #fdc468, 
+        0 0 14px #fdc468;
+}
+
+.cs-toggle-light:focus {
+    box-shadow: none !important;
 }
 
 .cs-nav-link-light .nav-link, .cs-link-light{
-    color: #A00033 !important;
+    color: #63687e !important;
 }
 
 .cs-link-light:hover {
     text-shadow: 
-        0 0 2px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 8px #d50043a0, 
-        0 0 10px #d50043a0, 
-        0 0 12px #d50043a0, 
-        0 0 14px #d50043a0;
+        0 0 2px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 8px #fdc468, 
+        0 0 10px #fdc468, 
+        0 0 12px #fdc468, 
+        0 0 14px #fdc468;
 }
 
 .cs-nav-link-light .nav-link:hover {
     transition: .5s !important;
     text-shadow: 
-        0 0 2px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 8px #d50043a0, 
-        0 0 10px #d50043a0, 
-        0 0 12px #d50043a0, 
-        0 0 14px #d50043a0;
+        0 0 2px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 8px #fdc468, 
+        0 0 10px #fdc468, 
+        0 0 12px #fdc468, 
+        0 0 14px #fdc468;
 }
 
 .cs-btn-filter-light {
-    background-color: #D50044 !important;
-    color: #E5FDFD !important;
+    background-color: #dc414c !important;
+    color: #f0f2fa !important;
 }
 
 .cs-btn-filter-light:disabled {
-    background-color: #B6D2D2 !important;
-    color: #202529 !important;
+    background-color: #63687e !important;
+    color: #f0f2fa !important;
 }
 
 .cs-btn-filter-light:disabled .cs-badge {
-    color: #202529 !important;
+    color: #1f212e !important;
 }
 
 .cs-btn-filter-light .cs-badge {
-    background-color: #B6D2D2 !important;
-    color: #D50044 !important;
+    background-color: #63687e !important;
+    color: #f0f2fa !important;
 }
 
 .cs-btn-filter-light:hover {
-    background-color: #B6D2D2 !important;
+    background-color: #f5f7ff !important;
+    color: #63687e !important;
     box-shadow: 
-        0 0 2px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 8px #d50043a0, 
-        0 0 10px #d50043a0, 
-        0 0 12px #d50043a0, 
-        0 0 14px #d50043a0;
-    color: #D50044 !important;
+        0 0 2px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 8px #fdc468, 
+        0 0 10px #fdc468, 
+        0 0 12px #fdc468, 
+        0 0 14px #fdc468;
 }
 
 .cs-btn-filter-light:hover .cs-badge {
-    background-color: #B6D2D2 !important;
-    color: #D50044 !important;
+    background-color: #f0f2fa !important;
+    color: #63687e !important;
 }
 
 .cs-btn-light {
-    color: #A00033 !important;
-    border: solid 2px #A00033 !important;
+    color: #dc414c !important;
+    border: solid 2px #dc414c !important;
 }
 
 .cs-btn-light:hover {
-    background-color: #A00033 !important;
-    color: #E5FDFD !important;
+    background-color: #dc414c !important;
+    color: #f0f2fa !important;
     box-shadow: 
-        0 0 2px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 8px #d50043a0, 
-        0 0 10px #d50043a0, 
-        0 0 12px #d50043a0, 
-        0 0 14px #d50043a0;
+        0 0 2px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 8px #fdc468, 
+        0 0 10px #fdc468, 
+        0 0 12px #fdc468, 
+        0 0 14px #fdc468;
 }
 
 /*badges*/
 .cs-badge-light {
-    background-color: #A00033 !important;
-    color: #E5FDFD !important;
+    background-color: #dc414c !important;
+    color: #f0f2fa !important;
     opacity: 50% !important;
     z-index: 1 !important;
 }
 
 /*shadow*/
 .cs-shadow-light {
-    box-shadow: #d50043a0 0px 5px 15px;
+    box-shadow: #fdc468 0px 5px 15px;
 }
 
 .cs-shadow-item-light {
@@ -141,13 +145,13 @@
 
 .cs-shadow-item-light:hover {
     box-shadow: 
-        0 0 1px #d50043a0, 
-        0 0 2px #d50043a0, 
-        0 0 3px #d50043a0, 
-        0 0 4px #d50043a0, 
-        0 0 5px #d50043a0, 
-        0 0 6px #d50043a0, 
-        0 0 7px #d50043a0;
+        0 0 1px #fdc468, 
+        0 0 2px #fdc468, 
+        0 0 3px #fdc468, 
+        0 0 4px #fdc468, 
+        0 0 5px #fdc468, 
+        0 0 6px #fdc468, 
+        0 0 7px #fdc468;
 }
 
 .cs-shadow-item-light:hover .cs-img, .cs-shadow-item-light:hover .cs-badge-light{
