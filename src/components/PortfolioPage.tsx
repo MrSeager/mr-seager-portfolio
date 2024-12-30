@@ -25,10 +25,17 @@ interface PortfolioItemType {
 }
 
 const PortfolioPage: FC = () => {
-    const [theme, setTheme] = useState<string>('dark');
     const [filters, setFilters] = useState<string[]>([]);
     const [portfolio, setPortfolio] = useState<PortfolioItemType[]>([]);
     const [showModal, setShowModal] = useState(false);
+    
+    const [theme, setTheme] = useState<string>(() => { 
+        return localStorage.getItem('theme') || 'dark'; 
+    }); 
+        
+    useEffect(() => { 
+        localStorage.setItem('theme', theme); 
+    }, [theme]);
 
     const handleClose = () => setShowModal(false);
     const handleShow = () => setShowModal(true);
