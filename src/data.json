@@ -971,6 +971,26 @@
       ],
       "link": "https://mrseager.github.io/job-listings/",
       "repasitory": "https://github.com/MrSeager/job-listings"
+    },
+    {
+      "id": 53,
+      "image": "main/src/images/053.jpg",
+      "title": "3-column preview card component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/column-preview-card/",
+      "repasitory": "https://github.com/MrSeager/column-preview-card"
     }
   ]
 }
