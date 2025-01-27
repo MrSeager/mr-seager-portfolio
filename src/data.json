@@ -991,6 +991,26 @@
       ],
       "link": "https://mrseager.github.io/column-preview-card/",
       "repasitory": "https://github.com/MrSeager/column-preview-card"
+    },
+    {
+      "id": 54,
+      "image": "main/src/images/054.jpg",
+      "title": "Space tourism multi-page website v2",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://github.com/MrSeager/space-tourism-v2",
+      "repasitory": "https://mrseager.github.io/space-tourism-v2/"
     }
   ]
 }
