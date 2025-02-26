@@ -1031,6 +1031,26 @@
       ],
       "link": "https://mrseager.github.io/countdown-timer/",
       "repasitory": "https://github.com/MrSeager/countdown-timer"
+    },
+    {
+      "id": 56,
+      "image": "main/src/images/056.jpg",
+      "title": "Conference ticket generator",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/ticket-generator/",
+      "repasitory": "https://github.com/MrSeager/ticket-generator"
     }
   ]
 }
