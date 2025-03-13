@@ -1051,6 +1051,26 @@
       ],
       "link": "https://mrseager.github.io/ticket-generator/",
       "repasitory": "https://github.com/MrSeager/ticket-generator"
+    },
+    {
+      "id": 57,
+      "image": "main/src/images/057.jpg",
+      "title": "Interactive pricing component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/interactive-pricing/",
+      "repasitory": "https://github.com/MrSeager/interactive-pricing"
     }
   ]
 }
