@@ -1091,6 +1091,26 @@
       ],
       "link": "https://mrseager.github.io/product-list/",
       "repasitory": "https://github.com/MrSeager/product-list"
+    },
+    {
+      "id": 59,
+      "image": "main/src/images/059.jpg",
+      "title": "Browser extension manager UI",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/browser-extensions/",
+      "repasitory": "https://github.com/MrSeager/browser-extensions"
     }
   ]
 }
