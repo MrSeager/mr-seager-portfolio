@@ -1111,6 +1111,26 @@
       ],
       "link": "https://mrseager.github.io/browser-extensions/",
       "repasitory": "https://github.com/MrSeager/browser-extensions"
+    },
+    {
+      "id": 60,
+      "image": "main/src/images/060.jpg",
+      "title": "Social proof section",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/social-proof/",
+      "repasitory": "https://github.com/MrSeager/social-proof"
     }
   ]
 }
