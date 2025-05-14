@@ -1131,6 +1131,26 @@
       ],
       "link": "https://mrseager.github.io/social-proof/",
       "repasitory": "https://github.com/MrSeager/social-proof"
+    },
+    {
+      "id": 61,
+      "image": "main/src/images/061.jpg",
+      "title": "Mortgage repayment calculator",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/mortgage-calculator/",
+      "repasitory": "https://github.com/MrSeager/mortgage-calculator"
     }
   ]
 }
