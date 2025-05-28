@@ -1151,6 +1151,26 @@
       ],
       "link": "https://mrseager.github.io/mortgage-calculator/",
       "repasitory": "https://github.com/MrSeager/mortgage-calculator"
+    },
+    {
+      "id": 62,
+      "image": "main/src/images/062.jpg",
+      "title": "Ableton webpage copy",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/ableton-page/",
+      "repasitory": "https://github.com/MrSeager/ableton-page"
     }
   ]
 }
