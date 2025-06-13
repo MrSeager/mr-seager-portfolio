@@ -1171,6 +1171,26 @@
       ],
       "link": "https://mrseager.github.io/ableton-page/",
       "repasitory": "https://github.com/MrSeager/ableton-page"
+    },
+    {
+      "id": 63,
+      "image": "main/src/images/063.jpg",
+      "title": "Podia page copy",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/podia-page/",
+      "repasitory": "https://github.com/MrSeager/podia-page"
     }
   ]
 }
