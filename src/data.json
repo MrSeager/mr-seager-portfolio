@@ -1191,6 +1191,26 @@
       ],
       "link": "https://mrseager.github.io/podia-page/",
       "repasitory": "https://github.com/MrSeager/podia-page"
+    },
+    {
+      "id": 64,
+      "image": "main/src/images/064.jpg",
+      "title": "Figma merch page copy",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/figma-shop-page/",
+      "repasitory": "https://github.com/MrSeager/figma-shop-page"
     }
   ]
 }
