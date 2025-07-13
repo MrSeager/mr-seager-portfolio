@@ -1211,6 +1211,26 @@
       ],
       "link": "https://mrseager.github.io/figma-shop-page/",
       "repasitory": "https://github.com/MrSeager/figma-shop-page"
+    },
+    {
+      "id": 65,
+      "image": "main/src/images/065.jpg",
+      "title": "Property listing",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/property-listing/",
+      "repasitory": "https://github.com/MrSeager/property-listing"
     }
   ]
 }
