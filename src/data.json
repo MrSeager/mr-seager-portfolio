@@ -1231,6 +1231,26 @@
       ],
       "link": "https://mrseager.github.io/property-listing/",
       "repasitory": "https://github.com/MrSeager/property-listing"
+    },
+    {
+      "id": 66,
+      "image": "main/src/images/066.jpg",
+      "title": "Simple Coffee Listing",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/simple-coffee-listing/",
+      "repasitory": "https://github.com/MrSeager/simple-coffee-listing"
     }
   ]
 }
