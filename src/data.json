@@ -1251,6 +1251,26 @@
       ],
       "link": "https://mrseager.github.io/simple-coffee-listing/",
       "repasitory": "https://github.com/MrSeager/simple-coffee-listing"
+    },
+    {
+      "id": 67,
+      "image": "main/src/images/067.jpg",
+      "title": "Country Page - WorldRanks",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/country-page/",
+      "repasitory": "https://github.com/MrSeager/country-page"
     }
   ]
 }
