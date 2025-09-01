@@ -1291,6 +1291,26 @@
       ],
       "link": "https://mrseager.github.io/translate-app/",
       "repasitory": "https://github.com/MrSeager/translate-app"
+    },
+    {
+      "id": 69,
+      "image": "main/src/images/069.jpg",
+      "title": "GoDaddy page example",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/godaddy-page/",
+      "repasitory": "https://github.com/MrSeager/godaddy-page"
     }
   ]
 }
