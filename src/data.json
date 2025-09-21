@@ -1332,6 +1332,27 @@
       ],
       "link": "https://flip-the-coin-delta.vercel.app/",
       "repasitory": "https://github.com/MrSeager/flip-the-coin"
+    },
+    {
+      "id": 71,
+      "image": "main/src/images/071.jpg",
+      "title": "Monogram Shop Training Exercise",
+      "technology": 
+      [
+        "next.js",
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://monogram-shop.vercel.app/",
+      "repasitory": "https://github.com/MrSeager/monogram-shop"
     }
   ]
 }
