@@ -1353,6 +1353,27 @@
       ],
       "link": "https://monogram-shop.vercel.app/",
       "repasitory": "https://github.com/MrSeager/monogram-shop"
+    },
+    {
+      "id": 72,
+      "image": "main/src/images/072.jpg",
+      "title": "Weather app",
+      "technology": 
+      [
+        "next.js",
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://weather-app-xb89.vercel.app/",
+      "repasitory": "https://github.com/MrSeager/weather-app"
     }
   ]
 }
