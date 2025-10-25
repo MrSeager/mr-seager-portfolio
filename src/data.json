@@ -1374,6 +1374,27 @@
       ],
       "link": "https://weather-app-xb89.vercel.app/",
       "repasitory": "https://github.com/MrSeager/weather-app"
+    },
+    {
+      "id": 73,
+      "image": "main/src/images/073.jpg",
+      "title": "Country Quiz app",
+      "technology": 
+      [
+        "next.js",
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://country-quiz-gray.vercel.app/",
+      "repasitory": "https://github.com/MrSeager/country-quiz"
     }
   ]
 }
