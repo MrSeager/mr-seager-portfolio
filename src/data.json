@@ -1395,6 +1395,26 @@
       ],
       "link": "https://country-quiz-gray.vercel.app/",
       "repasitory": "https://github.com/MrSeager/country-quiz"
+    },
+    {
+      "id": 74,
+      "image": "main/src/images/074.jpg",
+      "title": "Meet the Team Section",
+      "technology": 
+      [
+        "next.js",
+        "react",
+        "tailwind",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://team-layout.vercel.app/",
+      "repasitory": "https://github.com/MrSeager/team-layout"
     }
   ]
 }
