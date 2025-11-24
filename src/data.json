@@ -1415,6 +1415,26 @@
       ],
       "link": "https://team-layout.vercel.app/",
       "repasitory": "https://github.com/MrSeager/team-layout"
+    },
+    {
+      "id": 75,
+      "image": "main/src/images/075.jpg",
+      "title": "Qrates Why Page Exercise",
+      "technology": 
+      [
+        "next.js",
+        "react",
+        "tailwind",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://qrates-why-page-exercise.vercel.app/",
+      "repasitory": "https://github.com/MrSeager/qrates-why-page-exercise"
     }
   ]
 }
